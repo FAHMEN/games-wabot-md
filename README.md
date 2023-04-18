@@ -218,10 +218,10 @@ conn.sendButton(m.chat, 'Hello world!', '@BochilGaming', 'https://github.com/Boc
 > You can change in `config.js`, on global.owner. make sure you use correct syntax.
 ```js
 global.owner = [
-  ['6281319944687', 'BG', true]
+  ['6285876902820', 'BG', true]
 ]
 ```
-> First argument on array is number like `6281319944687`, second argument is name like `BG` (if this argument pass, if using `owner` command, this number will send as owner), third argument is developer like `true` (if this argument pass, if there have plugins error (not syntax error) the error will send to developer)
+> First argument on array is number like `6285876902820`, second argument is name like `BG` (if this argument pass, if using `owner` command, this number will send as owner), third argument is developer like `true` (if this argument pass, if there have plugins error (not syntax error) the error will send to developer)
 
 
 ### How to read folder in folder plugins as plugin file?
