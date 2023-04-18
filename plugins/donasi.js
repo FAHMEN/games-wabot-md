@@ -14,3 +14,28 @@ handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
 
 export default handler
+let handler =  m => m.reply(`
+
+╭─「 Donasi • Pulsa 」
+
+│ • Indosat Ooredoo [085713964963]
+
+│ • DANA & OVO [085876902820]
+
+╰────
+
+╭─「 Donasi • Non Pulsa 」
+
+│ • https://saweria.co/Fahrilgg
+
+╰────
+
+`.trim()) // Tambah sendiri kalo mau
+
+handler.help = ['donasi']
+
+handler.tags = ['info']
+
+handler.command = /^dona(te|si)$/i
+
+export default handler
